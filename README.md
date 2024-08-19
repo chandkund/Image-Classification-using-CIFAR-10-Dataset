@@ -80,15 +80,16 @@ pip install tensorflow keras numpy matplotlib
 - **Build the CNN Model**:
 
     ```python
-    model = Sequential([
-        Conv2D(32, (3, 3), activation='relu', input_shape=(32, 32, 3)),
-        MaxPooling2D((2, 2)),
-        Conv2D(64, (3, 3), activation='relu'),
-        MaxPooling2D((2, 2)),
-        Conv2D(64, (3, 3), activation='relu'),
-        Flatten(),
-        Dense(64, activation='relu'),
-        Dense(10, activation='softmax')
+    model = models.Sequential([
+    layers.Conv2D(32,(3,3),activation ='relu',input_shape = (32,32,3)),
+    layers.MaxPooling2D((2,2)),
+    layers.Conv2D(64,(3,3),activation ='relu'),
+    layers.MaxPooling2D((2,2)),
+    layers.Conv2D(64,(3,3),activation ='relu'),
+    layers.MaxPooling2D((2,2)),
+    layers.Flatten(),
+    layers.Dense(64,activation= 'relu'),
+    layers.Dense(10,activation ='softmax')])
     ])
     ```
 
