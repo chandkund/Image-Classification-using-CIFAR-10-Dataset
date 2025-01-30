@@ -14,7 +14,7 @@ This project aims to build an image classification model using the CIFAR-10 data
 
 ## Project Overview
 
-The CIFAR-10 dataset is commonly used for benchmarking image classification algorithms. This project includes the following steps:
+The CIFAR-10 dataset is commonly used for benchmarking image classification algorithms. This project includes the following steps: 
 
 1. Loading and preprocessing the CIFAR-10 dataset.
 2. Building and training a convolutional neural network (CNN) model.
