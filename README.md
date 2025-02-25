@@ -11,7 +11,7 @@ This project aims to build an image classification model using the CIFAR-10 data
 - [Code Explanation](#code-explanation)               
 - [Model Evaluation](#model-evaluation)       
 - [License](#license)      
-   
+     
 ## Project Overview
 
 The CIFAR-10 dataset is commonly used for benchmarking image classification algorithms. This project includes the following steps: 
