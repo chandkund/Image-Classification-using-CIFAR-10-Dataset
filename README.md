@@ -8,7 +8,7 @@ This project aims to build an image classification model using the CIFAR-10 data
 - [Project Overview](#project-overview)              
 - [Installation](#installation)         
 - [Usage](#usage)           
-- [Code Explanation](#code-explanation)               
+- [Code Explanation](#code-explanation)                  
 - [Model Evaluation](#model-evaluation)       
 - [License](#license)      
      
